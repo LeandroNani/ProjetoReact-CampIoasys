@@ -1,0 +1,64 @@
+.image{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+img{
+  border-radius: 100%;
+  width: 75px;
+  height:75px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+#container{
+  background-color: rgb(56, 54, 54);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height:500px;
+  width:300px;
+  border-radius: 15px;
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#sobre{
+  align-items: center;
+  justify-content: center;
+  text-align: center
+}
+
+
+
+.sobre{
+  margin: 0px;
+  padding: 0px;
+  align-self: center;
+  text-align: center
+}
+
+#sobre p{
+  color: yellow;
+  font-size: 15px;
+}
+
+button{
+  background-color: rgb(122, 109, 109);
+  border-radius: 10px;
+  width: 200px;
+  cursor: pointer;
+}
+#botoes {
+  display: block;
+  margin-top: 10px;
+}
+
+#botoes p{
+color: white;
+font-weight: bold;
+margin-bottom: 10px;
+}
